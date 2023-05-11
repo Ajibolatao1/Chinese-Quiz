@@ -1,0 +1,99 @@
+@import "./config";
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+.header {
+   height: 80px;
+   background-color: $primary-color;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+   .item {
+      background-color: $secondary-color;
+      padding: .5rem;
+      border-radius: 10px;
+      min-width: 100px;
+      text-align: center;
+      color: whitesmoke;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+         color: rgb(39, 39, 39);
+      }
+   }
+
+   
+}
+
+.main {
+   height: calc(100vh - 80px);
+   background-color: $primary-color;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   .section {
+      width: 90%;
+      max-width: 500px;
+      border-radius: 10px;
+      background-color: rgb(196, 191, 191);
+      // height: 20px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      padding: 1rem 1rem 0;
+      gap: .8rem;
+
+      .sub {
+         padding: .5rem;
+      }
+
+      .first {
+         font-size: 2rem;
+         padding: 0.5rem;
+      }
+
+      .second {
+         background-color: rgb(48, 48, 179);
+         width: 100%;
+         text-align: center;
+         
+         border-radius: 10px;
+         color: whitesmoke;
+         
+      }
+      .third {
+         background-color: rgb(131, 131, 37);
+         width: 100%;
+         text-align: center;
+         // padding: 0.5rem;
+         border-radius: 10px;
+         color: whitesmoke;
+      }
+
+      .arrow {
+         width: 100%;
+         display: flex;
+         justify-content: end;
+         padding: 0 1rem;
+
+         .bi {
+            font-size: 2rem;
+            
+         }
+      }
+
+   }
+}
+
+.hidden {
+   visibility: hidden;
+}
+
+
