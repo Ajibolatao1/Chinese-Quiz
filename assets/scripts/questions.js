@@ -162,6 +162,247 @@ const questions = {
       R: "shì",
       E: "is,am,are",
     },
+    {
+      id: crypto.randomUUID(),
+      C: "你",
+      R: "nǐ",
+      E: "you",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "我",
+      R: "wǒ",
+      E: "I, me",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "他",
+      R: "tā",
+      E: "he, him",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "她",
+      R: "tā",
+      E: "she, her",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "是",
+      R: "shì",
+      E: "to be, is",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "不",
+      R: "bù",
+      E: "not, no",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "吗",
+      R: "ma",
+      E: "question particle for yes/no questions",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "好",
+      R: "hǎo",
+      E: "good, well, fine",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "的",
+      R: "de",
+      E: "of, ’s (possessive particle), (adjectival suffix)",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "了",
+      R: "le",
+      E: "(modal particle indicating completed action), to understand, to know",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "在",
+      R: "zài",
+      E: "at, in, on",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "这",
+      R: "zhè",
+      E: "this",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "有",
+      R: "yǒu",
+      E: "to have, there is, there are",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "一",
+      R: "yī",
+      E: "one, a, an",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "个",
+      R: "gè",
+      E: "individual, measure word for general use",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "来",
+      R: "lái",
+      E: "to come",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "也",
+      R: "yě",
+      E: "also, too",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "就",
+      R: "jiù",
+      E: "then, precisely, just",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "很",
+      R: "hěn",
+      E: "very, quite",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "人",
+      R: "rén",
+      E: "person, people",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "要",
+      R: "yào",
+      E: "to want, to need, shall, will",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "会",
+      R: "huì",
+      E: "can, to know how to, be able to",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "去",
+      R: "qù",
+      E: "to go",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "在",
+      R: "zài",
+      E: "at, in",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "看",
+      R: "kàn",
+      E: "to look, to see",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "做",
+      R: "zuò",
+      E: "to do, to make",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "说",
+      R: "shuō",
+      E: "to speak, to say",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "得",
+      R: "dé",
+      E: "(complement particle), to obtain, to get",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "想",
+      R: "xiǎng",
+      E: "to think, to want, to miss",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "生",
+      R: "shēng",
+      E: "life, to give birth",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "时",
+      R: "shí",
+      E: "time, moment",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "多",
+      R: "duō",
+      E: "many, much, more",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "能",
+      R: "néng",
+      E: "can, to be able to",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "见",
+      R: "jiàn",
+      E: "to see, to meet",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "天",
+      R: "tiān",
+      E: "day, sky",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "两",
+      R: "liǎng",
+      E: "two",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "百",
+      R: "bǎi",
+      E: "hundred",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "千",
+      R: "qiān",
+      E: "thousand",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "万",
+      R: "wàn",
+      E: "ten thousand",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "中",
+      R: "zhōng",
+      E: "middle, center",
+    },
+
     // {
     //   id: "crypto.randomUUID()",
     //   C: "",
@@ -356,6 +597,48 @@ const questions = {
       R: "shēng rì",
       E: "birthday",
     },
+    {
+      id: crypto.randomUUID(),
+      C: "明天见",
+      R: "míng tiān jiàn",
+      E: "see you tomorrow",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "请进",
+      R: "qǐng jìn",
+      E: "please come in",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "好久不见",
+      R: "hǎo jiǔ bú jiàn",
+      E: "long time no see",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "恭喜发财",
+      R: "gōng xǐ fā cái",
+      E: "congratulations and prosperity",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "祝你生日快乐",
+      R: "zhù nǐ shēng rì kuài lè",
+      E: "happy birthday to you",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "我很高兴认识你",
+      R: "wǒ hěn gāo xìng rèn shí nǐ",
+      E: "I'm glad to meet you",
+    },
+    {
+      id: crypto.randomUUID(),
+      C: "你吃了吗",
+      R: "nǐ chī le ma",
+      E: "have you eaten",
+    },
     // {
     //   id: crypto.randomUUID(),
     //   C: "",
@@ -394,6 +677,84 @@ const questions = {
       R: "Zhù nǐ shēngrì kuàilè!",
       E: "Happy Birthday to you!",
     },
+    {
+  id: crypto.randomUUID(),
+  C: "我想要一杯咖啡。",
+  R: "wǒ xiǎng yào yī bēi kā fēi.",
+  E: "I want a cup of coffee."
+},
+{
+  id: crypto.randomUUID(),
+  C: "她正在学习中文。",
+  R: "tā zhèng zài xué xí zhōng wén.",
+  E: "She is studying Chinese."
+},
+{
+  id: crypto.randomUUID(),
+  C: "他非常喜欢看电影。",
+  R: "tā fēi cháng xǐ huān kàn diàn yǐng.",
+  E: "He really likes watching movies."
+},
+{
+  id: crypto.randomUUID(),
+  C: "我们一起去吃饭吧。",
+  R: "wǒ men yì qǐ qù chī fàn ba.",
+  E: "Let's go eat together."
+},
+{
+  id: crypto.randomUUID(),
+  C: "这个问题很难回答。",
+  R: "zhè ge wèn tí hěn nán huí dá.",
+  E: "This question is difficult to answer."
+},
+{
+  id: crypto.randomUUID(),
+  C: "他们已经结婚了。",
+  R: "tā men yǐ jīng jié hūn le.",
+  E: "They are already married."
+},
+{
+  id: crypto.randomUUID(),
+  C: "你的中文很好。",
+  R: "nǐ de zhōng wén hěn hǎo.",
+  E: "Your Chinese is very good."
+},
+{
+  id: crypto.randomUUID(),
+  C: "我每天都喝咖啡。",
+  R: "wǒ měi tiān dōu hē kā fēi.",
+  E: "I drink coffee every day."
+},
+{
+  id: crypto.randomUUID(),
+  C: "这个地方很漂亮。",
+  R: "zhè ge dì fang hěn piào liang.",
+  E: "This place is very beautiful."
+},
+{
+  id: crypto.randomUUID(),
+  C: "他们在一起很开心。",
+  R: "tā men zài yì qǐ hěn kāi xīn.",
+  E: "They are very happy together."
+},
+{
+  id: crypto.randomUUID(),
+  C: "这道菜很好吃。",
+  R: "zhè dào cài hěn hǎo chī.",
+  E: "This dish is very tasty."
+},
+{
+  id: crypto.randomUUID(),
+  C: "我的手机坏了。",
+  R: "wǒ de shǒu jī huài le.",
+  E: "My phone is broken."
+},
+{
+  id: crypto.randomUUID(),
+  C: "我们需要更多的时间。",
+  R: "wǒ men xū yào gèng duō de shí jiān.",
+  E: "We need more time."
+},
     // {
     //   id: crypto.randomUUID(),
     //   C: "",
