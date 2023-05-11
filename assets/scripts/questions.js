@@ -162,12 +162,12 @@ const questions = {
       R: "shì",
       E: "is,am,are",
     },
-    {
-      id: "crypto.randomUUID()",
-      C: "",
-      R: "",
-      E: "",
-    },
+    // {
+    //   id: "crypto.randomUUID()",
+    //   C: "",
+    //   R: "",
+    //   E: "",
+    // },
   ],
   words: [
     {
@@ -356,12 +356,12 @@ const questions = {
       R: "shēng rì",
       E: "birthday",
     },
-    {
-      id: crypto.randomUUID(),
-      C: "",
-      R: "",
-      E: "",
-    },
+    // {
+    //   id: crypto.randomUUID(),
+    //   C: "",
+    //   R: "",
+    //   E: "",
+    // },
   ],
   sentences: [
     {
@@ -394,12 +394,12 @@ const questions = {
       R: "Zhù nǐ shēngrì kuàilè!",
       E: "Happy Birthday to you!",
     },
-    {
-      id: crypto.randomUUID(),
-      C: "",
-      R: "",
-      E: "",
-    },
+    // {
+    //   id: crypto.randomUUID(),
+    //   C: "",
+    //   R: "",
+    //   E: "",
+    // },
   ],
 };
 
